@@ -1,0 +1,32 @@
+{
+  "name": "vexere-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "start:watch": "nodemon .",
+    "debug:watch": "DEBUG=* nodemon .",
+    "start:local": "export NODE_ENV=local && node .",
+    "start:local:2": "set NODE_ENV=local& node .",
+    "start:staging": "export NODE_ENV=staging && node .",
+    "start:staging:short": "NODE_ENV=staging node .",
+    "start:staging:2": "set NODE_ENV=staging& node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hogan.js": "^3.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.19",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4",
+    "validator": "^13.1.1"
+  }
+}
